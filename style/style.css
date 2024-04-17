@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#header{
+    background-color: #0303e0;
+    color: white;
+    display: flex;
+    font-size: 20pt;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-family: "Send Flowers", cursive;
+    text-align: center;   
+}
+
+#nav-bar li{
+    margin-left: 30px;
+}
+
+.links{
+    color:white;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+.links:hover{
+    color: red;
+}
+
+.active{
+    color: greenyellow;
+
+}
+
+#home-img{
+    width:50%;
+    margin: 20px auto;
+}
+#home-img img{
+    width:80%;
+}
+
+#discription{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: "Send Flowers", cursive; 
+    font-size: 150%;
+    justify-content: space-around;
+}
+
+.disc{
+    text-align: center;
+    justify-content: space-around;
+    grid-row: 10;
+}
+
+#footer{
+    background-color: #0303e0;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    font-size: 20pt;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer #brand{
+    flex:30%;
+    text-align: right;
+    font-size: 18pt;
+    font-family: "Send Flowers", cursive;
+}
+
+#open-times ul{
+    font-size: 22pt;
+    font-family: "Send Flowers", cursive;
+    list-style: none;
+    text-align:center;
+
+}
+#media img{
+    width:40%;
+    margin: 20px auto;
+    text-align: right;
+
+}
+#media img{
+    width:10%;
+}
+
+#btn-home{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px x 15px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 40px;
+}
+
+#btn-home:hover{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+#bg-img{
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/main_image.jpg');
+    background-position: center;
+}
+
+/* .grid-container {
+    display: grid;
+
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+    grid-template-columns: auto auto auto ;
+    background-color: #2196F3;
+    padding: 10px;
+    align-items: center;
+    border-radius: 25px;
+  } */
+
+  #pic{
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: auto auto auto auto ;
+    border-radius: 25px;
+
+  }
+
+  #box {
+    position: relative;
+    width: 200px;   
+    flex: 0.5;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    align-items: center;
+  }
+
+  #navi{
+    display: flex;
+    align-content:space-around;
+    top: 10px;
+    right: 300px;
+    width: 600px;
+    height: 450px;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 10px;
+
+  }
